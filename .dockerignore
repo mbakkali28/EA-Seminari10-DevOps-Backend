@@ -1,0 +1,16 @@
+node_modules
+build
+coverage
+
+# Repositorio y herramientas
+.git
+.github
+.vscode
+*.md
+Dockerfile
+.dockerignore
+
+# Valores de entorno: nunca dentro de la imagen (el contenedor los recibe en ejecución)
+.env
+.env.*
+env.production
